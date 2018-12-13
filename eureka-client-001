@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: eureka-client-001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10001/eureka/
