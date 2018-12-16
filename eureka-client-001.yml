@@ -5,3 +5,15 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:10001/eureka/
+
+---
+spring:
+  profiles: dev
+server:
+  port: 10010
+  
+---
+spring:
+  profiles: test
+server:
+  port: 10011
